@@ -1,6 +1,6 @@
 # vue-wisdom
 
-> 由vue-cli脚手架搭建~
+> 由vue-cli脚手架搭建~~
 
 ## 个人项目管理
 
