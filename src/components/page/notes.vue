@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-title text="我的项目"></v-title>
+    <v-title text="我的笔记"></v-title>
     <v-menu></v-menu>
   </div>
 </template>
@@ -9,7 +9,6 @@
   import title from '@/components/title/title'
   import menu from '@/components/menu/menu'
   export default {
-    name: 'projectList',
     props: [],
     components: {
       'v-title': title,

@@ -53,7 +53,6 @@
     list-style: none;
   }
   .list{
-    margin-top: 10px;
     margin-bottom: 52px;
     background-color: #fff;
   }

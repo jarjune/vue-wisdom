@@ -29,7 +29,7 @@
   }
 a{
   font-size: 24px;
-  color: #000;
+  color: #999;
   text-decoration: none;
   flex: 0 0 25%;
 }

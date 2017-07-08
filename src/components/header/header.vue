@@ -17,10 +17,11 @@
 
 <style scoped>
   .header{
-    background: rgb(233,32,60);
+    background: #19f;
     line-height:50px;
   }
   .header span{
+    color: #fff;
     margin: 0 10px;
     vertical-align: middle;
   }

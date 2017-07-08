@@ -7,7 +7,7 @@
     </div>
     <router-link to="/a" tag="div" class="item">修改个人资料</router-link>
     <router-link to="/projectList" tag="div" class="item">我的项目</router-link>
-    <router-link to="/c" tag="div" class="item">浏览历史</router-link>
+    <router-link to="/notes" tag="div" class="item">我的笔记</router-link>
     <router-link to="/d" tag="div" class="item">退出登录</router-link>
     <v-menu></v-menu>
   </div>

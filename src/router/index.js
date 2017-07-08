@@ -5,6 +5,7 @@ import personal from '@/components/page/personal'
 import page2 from '@/components/page/page2'
 import page3 from '@/components/page/page3'
 import projectList from '@/components/page/projectList'
+import notes from '@/components/page/notes'
 
 Vue.use(Router)
 
@@ -37,6 +38,10 @@ export default new Router({
     {
       path: '/projectList',
       component: projectList
+    },
+    {
+      path: '/notes',
+      component: notes
     }
   ],
   scrollBehavior (to, from, savedPosition) {
