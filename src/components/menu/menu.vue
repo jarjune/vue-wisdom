@@ -1,7 +1,7 @@
 <template>
   <div class="menu">
     <router-link to="/home"><span class="icon-home"></span></router-link>
-    <router-link to="page2"><span class="icon-bubble"></span></router-link>
+    <router-link to="/share"><span class="icon-bubble"></span></router-link>
     <router-link to="/page3"><span class="icon-list"></span></router-link>
     <router-link to="/personal"><span class="icon-user"></span></router-link>
   </div>

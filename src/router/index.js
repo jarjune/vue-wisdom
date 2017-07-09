@@ -2,10 +2,11 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import home from '@/components/page/home'
 import personal from '@/components/page/personal'
-import page2 from '@/components/page/page2'
+import share from '@/components/page/share'
 import page3 from '@/components/page/page3'
 import projectList from '@/components/page/projectList'
 import notes from '@/components/page/notes'
+import login from '@/components/page/login'
 
 Vue.use(Router)
 
@@ -24,8 +25,8 @@ export default new Router({
       meta: { keepAlive: true }
     },
     {
-      path: '/page2',
-      component: page2
+      path: '/share',
+      component: share
     },
     {
       path: '/page3',
@@ -42,6 +43,10 @@ export default new Router({
     {
       path: '/notes',
       component: notes
+    },
+    {
+      path: '/login',
+      component: login
     }
   ],
   scrollBehavior (to, from, savedPosition) {
